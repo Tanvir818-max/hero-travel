@@ -167,6 +167,9 @@ input, select{
   margin-top: 20px;
   margin-bottom: 30px;
   margin-top: 10px;
+  line-height: 24px;
+  word-spacing: 5px;
+  letter-spacing: 1px;
 }
 .text-content{
   display: flex;
@@ -180,6 +183,10 @@ input, select{
   margin-left: -20px;
   font-size: 1.5rem;
   color:#424247;
+  line-height: 24px;
+  word-spacing: 5px;
+  letter-spacing: 1px;
+  padding: 2px;
 }
 .btn-secondery{
   width: 174px;
@@ -192,7 +199,7 @@ input, select{
   padding: 14px 34px 13px 35px;
   border-radius: 8px;
   border: 0;
-  margin-top: 32px;
+  margin-top: -15px;
  
 }
 
@@ -205,3 +212,80 @@ input, select{
   justify-content: right;
   align-items: center;
 }
+/* Your Destination */
+.your-destination img{
+  width: 100%;
+  height: 325px;
+
+}
+.your-destination h3{
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+.dest-description{
+  font-size: 1rem;
+  font-weight: 400;
+  color:#424247;
+}
+.row-1, .row-2, .row-3{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin: 1.25rem 0;
+}
+.row-2{
+  grid-template-columns: 0.8fr 1.5fr 0.7fr;
+}
+.row-3{
+  grid-template-columns: 0.75fr 1.25fr;
+}
+.country-card{
+  position: relative;
+}
+.country{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: white;
+  font-size: 1.75rem;
+  font-weight: 800;
+  transform: translate(-50%, -50%);
+}
+/* A Simple Perfect Place */
+.simple-perfect-place{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: rgba(51, 217, 178,1.0); */
+
+}
+.perfect-place-text h3{
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: rgba(245, 59, 87,1.0);
+  text-align: left;
+  margin-top: -50x;
+}
+.perfect-place-text p{
+  font-size: 1.25rem;
+  color:rgba(170, 166, 157,1.0);
+  text-align: left;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+.perfect-place-text ul li{
+  text-align: left;
+  margin-left: -25px;
+  font-size: 1.25rem;
+  margin-bottom: 30px;
+}
+#btn-3{
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 100px;
+
+}
+/* perfect place end */
+
