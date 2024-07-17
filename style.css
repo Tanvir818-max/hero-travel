@@ -10,11 +10,11 @@
   font-style: normal;
 }
 .hero-travel{
-  /* h3 tag */
   font-size: 2.25rem;
   font-weight: 800;
   color: rgb(19, 19, 24);
   line-height: normal;
+
 }
 #travel{
   color: rgb(255, 84, 0); 
@@ -154,7 +154,7 @@ input, select{
   margin-bottom: 40px;
  
 }
-.highlight, span{
+.highlight{
   font-size: 4rem;
   /* font-weight: 900; */
   color:rgba(245, 59, 87,1.0);
@@ -374,4 +374,28 @@ input, select{
   color:#5A5A5D;
   text-align: left;
   margin-top: 20px;
+}
+/* footer section */
+.footer-section{
+  background-color: #F3F3F3;
+  padding: 2rem 0;
+}
+.two{
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.footer-section .logo{
+  margin: 2rem auto;
+} 
+.social{
+  display: flex;
+  width: 200px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem auto;
+}
+.social i{
+  height: 44px;
+  font-size: 1.5rem;
 }
