@@ -399,3 +399,6 @@ input, select{
   height: 44px;
   font-size: 1.5rem;
 }
+.footer-section hr{
+  margin: 2rem 0;
+}
